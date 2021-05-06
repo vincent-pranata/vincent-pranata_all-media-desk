@@ -4,4 +4,4 @@ from app import app, mainEngine
 
 @app.route('/')
 def index():
-    return render_template("mainlogin.html")
+    return render_template("index.html")
